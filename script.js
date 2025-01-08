@@ -104,8 +104,9 @@ function parar() {
 }
 
 function mostrarTempo() {
-    const tempo = tempoDecorrido
-    timer.innerHTML = `${tempo}`
+    const tempo = new Date(tempoDecorrido * 1000)
+    const tempoFormatado = tempo.toLocaleString('pt-br', {minute: '2-digit', second: '2-digit'})
+    timer.innerHTML = `${tempoFormatado}`
 }
 
 mostrarTempo()
