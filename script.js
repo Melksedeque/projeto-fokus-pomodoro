@@ -35,16 +35,19 @@ inputMusicaFoco.addEventListener('change', () => {
 })
 
 btnFoco.addEventListener('click', () => {
+    tempoDecorrido = tempoFoco
     alterarContexto('foco')
     btnFoco.classList.add('active')
 })
 
 btnCurto.addEventListener('click', () => {
+    tempoDecorrido = tempoCurto
     alterarContexto('descanso-curto')
     btnCurto.classList.add('active')
 })
 
 btnLongo.addEventListener('click', () => {
+    tempoDecorrido = tempoLongo
     alterarContexto('descanso-longo')
     btnLongo.classList.add('active')
 })
@@ -52,10 +55,12 @@ btnLongo.addEventListener('click', () => {
 function alterarContexto(contexto) {
     html.setAttribute('data-contexto', contexto)
     banner.setAttribute('src', `/imagens/${contexto}.png`)
-
+    
     botoes.forEach(function(contexto) {
         contexto.classList.remove('active')
     })
+    
+    mostrarTempo()
 
     switch (contexto) {
         case "foco":
