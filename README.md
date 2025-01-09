@@ -44,7 +44,7 @@ O projeto é uma aplicação web simples composta por arquivos HTML, CSS e JavaS
 3. Abra o arquivo `index.html` no seu navegador.
 
 ## Estrutura de Pastas
-
+```
 projeto-fokus-pomodoro/
 ├── imagens/
 │   ├── descanso-curto.png
@@ -66,6 +66,7 @@ projeto-fokus-pomodoro/
 ├── README.md
 ├── script.js
 └── styles.css
+```
 
 ## Licença
 
