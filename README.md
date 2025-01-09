@@ -69,7 +69,7 @@ projeto-fokus-pomodoro/
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](https://github.com/Melksedeque/projeto-fokus-pomodoro?tab=MIT-1-ov-file) para mais detalhes.
 
 ## Prints do Projeto
 
