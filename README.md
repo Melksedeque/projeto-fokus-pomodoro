@@ -76,10 +76,10 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](https
 ### Tela Principal (Foco)
 ![Tela Principal (Foco)](/screenshots/foco-desktop.png)
 
-### Tela de Descanso Curto
+### Tela Descanso Curto
 ![Tela de Descanso Curto](/screenshots/descanso-curto-desktop.png)
 
-### Tela de Descanso Longo
+### Tela Descanso Longo
 ![Tela de Descanso Longo](/screenshots/descanso-longo-desktop.png)
 
 ## Autor
