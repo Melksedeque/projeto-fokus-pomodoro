@@ -56,6 +56,13 @@ projeto-fokus-pomodoro/
 │   ├── pattern.png
 │   ├── pause.png
 │   ├── play_arrow.png
+├── screenshots/
+│   ├── descanso-curto-desktop.png
+│   ├── descanso-curto-mobile.png
+│   ├── descanso-longo-desktop.png
+│   ├── descanso-longo-mobile.png
+│   ├── foco-desktop.png
+│   ├── foco-mobile.png
 ├── sons/
 │   ├── beep.mp3
 │   ├── luna-rise-part-one.mp3
