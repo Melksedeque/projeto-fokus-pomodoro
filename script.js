@@ -15,10 +15,10 @@ const destaqueTitulo = document.querySelector('.app__title-strong')
 const banner = document.querySelector('.app__image-figure .app__image')
 
 const inputMusicaFoco = document.getElementById('alternar-musica')
-const musica = new Audio('/sons/luna-rise-part-one.mp3')
-const somPlay = new Audio('/sons/play.wav')
-const somPause = new Audio('/sons/pause.mp3')
-const somTermino = new Audio('/sons/beep.mp3')
+const musica = new Audio('./sons/luna-rise-part-one.mp3')
+const somPlay = new Audio('./sons/play.wav')
+const somPause = new Audio('./sons/pause.mp3')
+const somTermino = new Audio('./sons/beep.mp3')
 
 const timer = document.getElementById('timer')
 
@@ -54,7 +54,7 @@ btnLongo.addEventListener('click', () => {
 
 function alterarContexto(contexto) {
     html.setAttribute('data-contexto', contexto)
-    banner.setAttribute('src', `/imagens/${contexto}.png`)
+    banner.setAttribute('src', `./imagens/${contexto}.png`)
     
     botoes.forEach(function(contexto) {
         contexto.classList.remove('active')
@@ -99,12 +99,12 @@ function iniciarOuPausarTemporizador() {
     }
     somPlay.play()
     intervalo = setInterval(contagemRegressiva, 1000)
-    btnStartPause.innerHTML = `<img class="app__card-primary-butto-icon" src="/imagens/pause.png" alt=""><span>Pausar</span>`
+    btnStartPause.innerHTML = `<img class="app__card-primary-butto-icon" src="./imagens/pause.png" alt=""><span>Pausar</span>`
 }
 
 function parar() {
     clearInterval(intervalo)
-    btnStartPause.innerHTML = `<img class="app__card-primary-butto-icon" src="/imagens/play_arrow.png" alt=""><span>Começar</span>`
+    btnStartPause.innerHTML = `<img class="app__card-primary-butto-icon" src="./imagens/play_arrow.png" alt=""><span>Começar</span>`
     intervalo = null
 }
 
